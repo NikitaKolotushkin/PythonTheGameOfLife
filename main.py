@@ -18,7 +18,7 @@ clock = pygame.time.Clock()
 
 while True:
 
-    game_screen.fill(pygame.Color('black'))
+    game_screen.fill(pygame.Color("black"))
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             exit()
